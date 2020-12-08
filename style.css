@@ -1,13 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
 }
 
 nav{
     background-color: black;
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 nav a{
@@ -22,27 +28,38 @@ a:hover{
 
 header{
     background-color: red;
-    height: 350px;
+    height: 600px;
     background-image: url(images/IZA.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+h2{
+    color: crimson;
+    font-size: 30pt;
+    margin: 0;
+}
+
 section{
     align-items: center;
+    justify-content: space-around;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     background-color: gainsboro;
-    height: 500px;
+    height: 800px;
+}
+
+aside{
+    background-color: cornflowerblue;
+    height: 800px;
 }
 
 footer{
-    background-color: green;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 600px;
 }
 
 footer div{
